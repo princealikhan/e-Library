@@ -1,0 +1,152 @@
+HTML, BODY { padding: 0; border: 0px none; }
+
+.orangeColor {color: #FF9900}
+.greenColor {color: #006600}
+.greyColor {color: #666666}
+.liteGreyColor {color: #7C7C7C}
+.centerStuff {
+	text-align: center;
+}
+.boldStuff {
+	font-weight: bold;
+}
+.textsize9 {font-size: 9px}
+.textsize10 {font-size: 10px}
+.textsize16 {font-size: 16px;}
+.formFields {
+	background-color:#E7F3FE;
+	color:#000;
+}
+
+/*--------- Header Buttons Style -------------- */
+.headerBtns{
+	margin-bottom:4px;
+}
+.headerBtns a{
+	background-image:url(headerBtnsBG.jpg);
+	border:#999 1px solid;
+	color:#333;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.headerBtns a:link{
+	color:#333;
+}
+.headerBtns a:hover {
+	background-image:url(headerBtnsBGover.jpg);
+	border:#666 1px solid;
+	text-decoration:none;
+}
+.headerBtns a:visited {
+	color:#333;
+}
+/*--------- Main Body table styles -------------- */
+.mainBodyTable {
+	background-color:#F2F2F2; 
+	width:900px;
+}
+
+ /*
+  PURE CSS DROP MENU - VALIDATES AND WORKS IN ALL MAJOR BROWSERS   
+*/
+.dc{
+    display:inline;
+    position: relative;
+    z-index: 50;
+    margin:0;
+    padding:0;
+	text-align:left;
+}
+.dc:hover{
+    background-color: transparent;
+    z-index: 50;
+}
+.dc ul{ 
+    margin:0;
+    padding:0;
+    position: absolute;
+    width:106px;
+    background-color: #6CB6FF;
+    left: -1000px;
+    list-style-type:none;
+    visibility: hidden;
+}
+.dc:hover ul{ 
+    visibility: visible;
+    top: 13px;
+    left:-4px;
+}
+/* -------------------- What the list items will look like inside the dropdown  ---------------------- */
+.dc ul li{
+    margin:0;
+    padding:0;
+    background-color: #D7EBFF;
+    margin:1px;
+}
+.dc ul li:hover {
+    background-color: #FFF;
+    margin:1px;
+}
+/* -------------------- What the links look like inside the dropdown  ---------------------- */
+.dc ul li a {
+    display:block;
+    padding:5px;
+    font-size:11px;
+}
+.dc ul li a:link {
+    color: #03F;
+    text-decoration: none;
+}
+.dc ul li a:visited {
+    text-decoration: none;
+    color: #03F;
+}
+.dc ul li a:hover {
+    text-decoration: none;
+    color: #03F;
+}
+.dc ul li a:active {
+    text-decoration: none;
+    color: #03F;
+}
+/*      END PURE CSS DROP MENU        */
+
+/*      DEFAULT SITEWIDE LINK STYLE        */
+a:link {
+	color: #06F;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #06F;
+}
+a:hover {
+	text-decoration: underline;
+	color: #090;
+}
+a:active {
+	text-decoration: none;
+	color: #06F;
+}
+/*      END DEFAULT SITEWIDE LINK STYLE        */
+/* Stylish FieldSet */
+fieldset { -moz-border-radius: 7px; border: 1px #dddddd solid; padding: 10px; width: 330px; margin-top: 10px; }
+
+fieldset legend { border: 1px #1a6f93 solid; color: black; font: 13px Verdana; padding: 2 5 2 5; -moz-border-radius: 3px; }
+
+/* Input text */
+input { margin: 5px; padding: 0px; float: left; border: 1px solid #cdcdcd; background-color: white; -moz-border-radius: 2px; }
+
+/* 'Login' Button */
+#myButton{ margin: 5px; padding: 0px; float: left; width: 50px; background-color: white; }
+
+#error_notification { border: 1px #A25965 solid; height: auto; padding: 4px; background: #F8F0F1; text-align: center; -moz-border-radius: 3px; }
+
+#login_response { overflow: auto; }
+ 
+#ajax_loading { display: none; font-size: 12px; font-family: Tahoma; }
+
+#logged_in { border: 1px solid #dddddd; -moz-border-radius: 3px; padding: 5px; width: 500px; }
